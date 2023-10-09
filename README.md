@@ -1,15 +1,15 @@
 <div align="center">
   
-# Package Name
- 
+# Model Board
+A dashboard of different models I have implemented to showcase my ability to use various ML tools.
 Add tags here
 </div>
 
 ---
 # Tasks
-- [ ] Task 1
-- [ ] Task 2 
-- [ ] Task 3
+- [ ] Basic Tensors
+- [ ] Model Training with PyTorch 
+- [ ] Basic PyTorch Model on Streamlit
 
 # What is the repository?
 
