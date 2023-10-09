@@ -1,0 +1,7 @@
+data
+docs
+notebooks
+results
+scripts
+src
+tests

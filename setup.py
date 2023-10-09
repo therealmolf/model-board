@@ -8,7 +8,7 @@ with open(Path(BASE_DIR, "requirements.txt"), "r") as file:
 
 # Define our package
 setup(
-    name="",
+    name="model-board",
     version=0.1,
     description="",
     author="Miko Planas",
