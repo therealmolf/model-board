@@ -4,6 +4,9 @@
 
 import torch as t
 import torch.nn.functional as F
+from torch.utils.data import DataLoader
+
+from collections import Counter
 
 
 def compute_total_loss(model: t.nn.Module,
@@ -51,3 +54,16 @@ def compute_accuracy(model: t.nn.Module,
         total_examples += len(compare)
 
     return correct / total_examples
+
+
+def count_classes(loader: DataLoader):
+    """
+        Count and sort the number of labels/classes from a DataLoader
+    """
+
+    counter = Counter()
+
+    for _, labels in loader:
+        counter.update(labels.tolist())
+
+    return (sorted(counter.items()), counter)
