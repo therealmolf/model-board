@@ -1,7 +1,7 @@
 <div align="center">
   
 # Model Board
-A dashboard of different models I have implemented to showcase my ability to use various ML tools.
+A streamlit application of different models I have implemented to showcase my ability to use various ML tools.
 </div>
 
 ---
@@ -12,45 +12,23 @@ A dashboard of different models I have implemented to showcase my ability to use
 - [ ] Find another cute dataset
 
 
-# Installation
-- Include Dependencies
-- Include core package
-- Include installation for Linux, Mac, Windows
-- Include how to install using Docker
-- etc.
+# Getting Started
+The streamlit application has not been deployed. Hence, you will have to locally clone the repo!
+```shell
 
-Install the necessary packages
+```
+Create a virtual environment.
+Install the necessary packages.
 
 ```shell
 pip install -r requirements.txt
 ```
+Run the application.
+```shell
+streamlit run src/Home.py
+```
 
-Add more details
-
-# Documentation, How to Use, Getting Started
-
-This is documentation, how to use, or getting started section
-
-- Include Examples, Tutorials, etc.
-- Include Resources
-- Include Screenshots
-
-# Contributing
-
-This is how you contribute...
 
 # Team
 
-This is a community-driven project! Package is currently maintained by
-Miko Planas
-
-# Citation
-
-If you use package in your research, please cite package using:
-```bibtex
-@article
-```
-
-# License
-
-Package has a _ license, as found in the LICENSE file.
+This is just a personal repo of Miko Planas
