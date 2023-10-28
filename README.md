@@ -2,18 +2,14 @@
   
 # Model Board
 A dashboard of different models I have implemented to showcase my ability to use various ML tools.
-Add tags here
 </div>
 
 ---
 # Tasks
-- [ ] Basic Tensors
-- [ ] Model Training with PyTorch 
-- [ ] Basic PyTorch Model on Streamlit
-
-# What is the repository?
-
-`package` is a _____
+- [X] Basic Tensors
+- [X] Model Training with PyTorch 
+- [X] Basic MLP on Dry Bean Dataset on Streamlit
+- [ ] Find another cute dataset
 
 
 # Installation
@@ -23,11 +19,10 @@ Add tags here
 - Include how to install using Docker
 - etc.
 
-Install `package` with pip:
+Install the necessary packages
 
 ```shell
-pip install thing
-pip install thing
+pip install -r requirements.txt
 ```
 
 Add more details
