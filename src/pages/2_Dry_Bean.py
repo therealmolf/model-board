@@ -21,16 +21,18 @@ path = Path("/home/therealmolf/model-board/data/" +
 df = pd.read_excel(path)
 
 # %%
-st.write("## Multilayer Perceptron on Dry Bean Dataset")
+st.write("# Multilayer Perceptron on Dry Bean Dataset")
 
-st.write("### Some Details:")
+st.write("---")
 st.markdown("""
+    ### Some Details:
     - ***Type:*** Multiclass Classification
     - ***Instances:*** 13,611
     - ***Features:*** 16
     - ***Source:*** UCI Machine Learning Repository
     - ***Note:*** This is an unreliable model that has only been trained twice
                   for demonstrative purposes.
+    ---
 """)
 
 
@@ -42,6 +44,8 @@ page = st.sidebar.selectbox("Select Page", [
 if page == "Data Analysis":
     st.write("#### First 5 Rows")
     st.table(df.head())
+
+    st.markdown("---")
 
     st.write('#### Class Distribution')
 

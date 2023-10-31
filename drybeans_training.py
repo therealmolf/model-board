@@ -1,3 +1,10 @@
+"""
+Training script for MLP on Dry Bean Dataset using Lightning.
+This includes the Dataset, LightningModule, DataLoaders, Trainer, etc.
+
+"""
+
+
 from lightning import LightningModule, Trainer
 
 import torch as t
