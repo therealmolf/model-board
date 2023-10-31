@@ -7,13 +7,15 @@ st.set_page_config(
 )
 
 
-st.title("Model Board")
+st.title("Model Board 👽")
 
 st.markdown(
     """
-    Contains analyses and trained models for **datasets** such as
-    - Dry Beans
-    - Census
+    ---
+    ## This minimal application contains analyses and trained models for datasets such as
+    - Dry Bean
+    - Census Income
+    - Steel Industry Energy Consumption
     - and more!
     """
 )
