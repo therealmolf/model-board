@@ -1,61 +1,37 @@
 <div align="center">
   
 # Model Board
-A dashboard of different models I have implemented to showcase my ability to use various ML tools.
-Add tags here
+A streamlit application of different models I have implemented to showcase my ability to use various ML tools.
 </div>
 
 ---
 # Tasks
-- [ ] Basic Tensors
-- [ ] Model Training with PyTorch 
-- [ ] Basic PyTorch Model on Streamlit
-
-# What is the repository?
-
-`package` is a _____
+- [X] Basic Tensors
+- [X] Model Training with PyTorch 
+- [X] Basic MLP on Dry Bean Dataset on Streamlit
+- [ ] Find another cute dataset
 
 
-# Installation
-- Include Dependencies
-- Include core package
-- Include installation for Linux, Mac, Windows
-- Include how to install using Docker
-- etc.
-
-Install `package` with pip:
-
+# Getting Started
+The streamlit application has not been deployed. Hence, you will have to locally clone the repo!
 ```shell
-pip install thing
-pip install thing
+git clone https://github.com/therealmolf/model-board.git
 ```
 
-Add more details
+Create a virtual environment.
 
-# Documentation, How to Use, Getting Started
+Install the necessary packages.
 
-This is documentation, how to use, or getting started section
+```shell
+pip install -r requirements.txt
+```
 
-- Include Examples, Tutorials, etc.
-- Include Resources
-- Include Screenshots
+Run the application.
+```shell
+streamlit run src/Home.py
+```
 
-# Contributing
-
-This is how you contribute...
 
 # Team
 
-This is a community-driven project! Package is currently maintained by
-Miko Planas
-
-# Citation
-
-If you use package in your research, please cite package using:
-```bibtex
-@article
-```
-
-# License
-
-Package has a _ license, as found in the LICENSE file.
+This is just a personal repo of Miko Planas
